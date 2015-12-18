@@ -37,7 +37,7 @@ install git
 
     brew install git
 
-configure 
+configure
 
     git config --global user.name "Your Name Here"
     git config --global user.email "your_email@youremail.com"
@@ -47,4 +47,21 @@ install iTerm2+zsh
 
 	brew cask install iTerm2
 
+configure iterm2
+    Keys -> show/hide iTerm2 with a system-wide hotkey: Command+Option+i
+    Terminal -> silence bell
+
 configure iterm color and fonts
+download solarized color scheme at http://ethanschoonover.com/projects and then Colors -> Load Presets
+
+## Sublime
+install sublime
+
+    brew cask install sublime
+
+configure sublime as the sublime.config file shows
+create a shortcut to open sublime from command line
+
+    ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+
+
